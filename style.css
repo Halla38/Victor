@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(185, 75%, 39%);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    font-family: "Kumbh Sans";
+    
+}
+.top{
+    height: 200px;
+}
+.top img{
+    position: relative;
+    right:300px ;
+    top: -500px;
+    
+}
+.bottom{
+    height: 200px;
+    
+    
+}
+.bottom img{
+    position: relative;
+    left: 700px;
+    top: -200px;
+    z-index: 6;
+    
+    
+    
+}
+.image{
+    height: 60px;
+}
+.image img{
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    left:120px;
+    top: -55px;
+    border: 5px solid white;
+    
+}
+
+
+.subtitle{
+    justify-content: space-between;
+    padding: 0px 120px 0 110px;
+    display: flex;
+    
+    
+}
+.vc{
+    font-weight: 700;
+
+}
+.london{
+    color:  hsl(227, 10%, 46%);
+    padding: 10px 150px 20px 150px;
+    font-size: medium ;
+
+}
+.space{
+    display: flex;
+    justify-content: center;
+}
+.victor-card{
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: center;
+    z-index: 10;
+    /*margin: 200px 550px;*/
+}
+
+.numbers{
+   padding: 10px 55px 5px 55px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+  
+}
+.of-what{
+    padding: 0 55px 20px 45px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    color:   hsl(227, 10%, 46%) ;
+}
+.up{
+    border-radius:15px 15px 0 0;
+}
+.num{
+    color: hsl(227, 10%, 46%) ;
+    font-weight: 500;
+}
+.line{
+    
+        border: none; 
+        height:1px; 
+        background-color:  hsl(0, 0%, 59%);
+        margin: 10px 0;
+    
+}
