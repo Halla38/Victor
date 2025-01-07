@@ -107,3 +107,32 @@ body{
         margin: 10px 0;
     
 }
+
+@media (max-width: 600px) {
+    .subtitle {
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .london {
+        padding: 10px 20px;
+        font-size: small;
+    }
+
+    .victor-card {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .numbers, .of-what {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    font-family: "Kumbh Sans";
+    
+}
