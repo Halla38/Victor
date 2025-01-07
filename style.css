@@ -11,46 +11,6 @@ body{
     
 }
 
-/* Prevent zooming on mobile devices */
-body {
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    overflow-x: hidden;
-}
-
-@media (max-width: 600px) {
-    .top img {
-        right: 0;
-        top: -250px;
-    }
-
-    .bottom img {
-        left: 0;
-        top: -100px;
-    }
-
-    .image img {
-        left: 0;
-        top: -30px;
-    }
-
-    .subtitle {
-        padding: 0 20px;
-    }
-
-    .london {
-        padding: 10px 20px;
-    }
-
-    .victor-card {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .numbers, .of-what {
-        padding: 10px 20px;
-    }
-}
 .top{
     height: 200px;
 }
